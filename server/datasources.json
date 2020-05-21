@@ -1,0 +1,19 @@
+{
+  "Mongodb": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "epsilon",
+    "password": "",
+    "name": "Mongodb",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  },
+  "SISTEMA": {
+    "name": "SISTEMA",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./client"
+  }
+}
